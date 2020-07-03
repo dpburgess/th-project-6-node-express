@@ -1,0 +1,23 @@
+{
+  "name": "th-project-6-node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpburgess/th-project-6-node-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpburgess/th-project-6-node-express/issues"
+  },
+  "homepage": "https://github.com/dpburgess/th-project-6-node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
