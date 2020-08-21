@@ -19,23 +19,21 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/project/:projectId", (req, res, next) => {
-  //req.params.projectId;
-  //if (req.params.projectId < 5) {
-  res.locals.projects = data.projects[req.params.projectId];
-  body = data.projects[req.params.projectId];
-  res.render("project", body);
-  //} else {
-  //next(err);
-  //console.log(req.params.projectId);
-  //err.status = 404;
-  //res.status(404);
-  //res.render("error");
-  //}
+  const projectId = req.params.projectId;
+  const projects = data.projects;
+  const project = projects.find(({ id }) => id === +projectId);
+  if (project) {
+    res.locals.projects = data.projects[req.params.projectId];
+    body = data.projects[req.params.projectId];
+    res.render("project", body);
+  } else {
+    res.sendStatus(404);
+    console.log("The user went to a page that does not exist");
+  }
 });
-// dynamic route
-// https://teamtreehouse.com/library/express-s-responserender-method
 
 app.use((req, res, next) => {
+  console.log("The user went to a page that does not exist");
   const err = new Error("Not Found");
   err.status = 404;
   next(err);

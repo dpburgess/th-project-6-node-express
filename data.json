@@ -1,49 +1,69 @@
 {
   "projects": [
     {
-      "id": "0",
+      "id": 0,
       "project_name": "Random Quote Generator",
       "description": "Click, Show Another Quote, to see a randomly chosen quote from a list of 12 quotes or wait a few seconds and the quote will change on its own.",
-      "technologies": ["Javascript", "CSS"],
+      "technologies": ["HTML", "Javascript", "CSS"],
       "live_link": "https://dpburgess.github.io/th-project1/",
       "github_link": "https://github.com/dpburgess/th-project1",
-      "image_urls": "images/tesla3.jpg"
+      "image_urls": [
+        "static/images/random-quotes7.png",
+        "static/images/random-quotes4.png",
+        "static/images/random-quotes5.png"
+      ]
     },
     {
-      "id": "1",
+      "id": 1,
       "project_name": "Student Directory",
       "description": "A student directory with pagination and a search feature that looks through the student name or the email address.",
-      "technologies": ["Javascript"],
+      "technologies": ["HTML", "CSS", "Javascript"],
       "live_link": "https://dpburgess.github.io/th-project2/",
       "github_link": "https://github.com/dpburgess/th-project2",
-      "image_urls": "images/tesla3.jpg"
+      "image_urls": [
+        "static/images/students5.png",
+        "static/images/students2.png",
+        "static/images/students3.png"
+      ]
     },
     {
-      "id": "2",
+      "id": 2,
       "project_name": "Registration Form",
       "description": "A registration form with inline validation and some built-in logic depending on which fields are used.",
-      "technologies": ["Javascript"],
+      "technologies": ["HTML", "CSS", "Javascript", "jQuery CDN", "Regex"],
       "live_link": "https://dpburgess.github.io/th-project3-interative-form/",
       "github_link": "https://github.com/dpburgess/th-project3-interative-form",
-      "image_urls": "images/tesla3.jpg"
+      "image_urls": [
+        "static/images/register-for-full-stack-conf5.png",
+        "static/images/register-for-full-stack-conf2.png",
+        "static/images/register-for-full-stack-conf3.png"
+      ]
     },
     {
-      "id": "3",
+      "id": 3,
       "project_name": "Phrase Hunter",
       "description": "A game with 5 secret phrases and the player has 5 chances to guess all the letters within one of the phrases.",
-      "technologies": ["Javascript"],
+      "technologies": ["HTML", "CSS", "Javascript"],
       "live_link": "https://dpburgess.github.io/th-project-4-phrase-game/",
       "github_link": "https://github.com/dpburgess/th-project-4-phrase-game",
-      "image_urls": "images/tesla3.jpg"
+      "image_urls": [
+        "static/images/phrase-hunter5.png",
+        "static/images/phrase-hunter2.png",
+        "static/images/phrase-hunter3.png"
+      ]
     },
     {
-      "id": "4",
+      "id": 4,
       "project_name": "Employee Directory",
       "description": "A directory of employees with pop up modals for each employee and navigation buttons between each employee from the modal.",
-      "technologies": ["Javascript"],
+      "technologies": ["HTML", "CSS", "Javascript", "Fetch", "Promises"],
       "live_link": "https://dpburgess.github.io/th-project-5-api-requests/",
       "github_link": "https://github.com/dpburgess/th-project-5-api-requests",
-      "image_urls": "images/tesla3.jpg"
+      "image_urls": [
+        "static/images/public-api-requests5.png",
+        "static/images/public-api-requests2.png",
+        "static/images/public-api-requests3.png"
+      ]
     }
   ]
 }
